@@ -1,0 +1,77 @@
+#banner {
+height:90vh;
+background: url('pexels-lastly-772803.jpg');
+background-size: cover;
+background-position: center;
+
+}
+
+.btn {
+    padding: 15px 30px;
+    transition: all 0.4s ease;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 20px;
+    letter-spacing: 2px;
+}
+
+.btn-brand {
+    background-color: transparent;
+    border: 2px solid rgb(77, 185, 185);
+    color: rgb(2, 116, 136);
+}
+
+.btn-brand:hover {
+    background-color: rgb(245, 245, 220);
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 107, 121);
+}
+section {
+    padding: 100px 0;
+
+}
+#about h2 {
+    font-size: 55px;
+    font-weight: 900;
+    color: black;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(162, 255, 250);
+}
+#about .btn-brand:hover{
+    color: rgb(4, 93, 121) !important;
+    border-color: #045d79 !important;
+    background-color: bisque;
+}
+#about {
+    background-color:beige;
+}
+.bisag-unsa{
+    width:40%;
+}
+#services .btn-brand:hover {
+    color: rgb(75, 75, 73) !important;
+    border-color: rgb(69, 155, 167) !important;
+}
+.card{
+    transition: background-color 0.3s, color 0.3s;
+    border: 5px solid var(--border);
+    border-radius: 30px;
+}
+.card:hoover {
+    background-color: black;
+}
+.card:hoover .card-title,
+.card:hoover .card-text,
+.card:hoover .btn{
+    color: rgb(240, 152, 70);
+}
+#services h2 {
+    font-size: 55px;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(162, 255, 250);
+}
+#services{
+    background-color: bisque; 
+}
